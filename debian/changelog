@@ -1,3 +1,10 @@
+lvm2 (2.03.11-2.1ubuntu5) jammy; urgency=medium
+
+  * Remove libaio from being skipped by memlock (LP: #2084233)
+    - d/p/lp2084233-mm-remove-libaio-from-being-skipped.patch
+
+ -- Heitor Alves de Siqueira <halves@canonical.com>  Wed, 27 Nov 2024 19:04:29 +0000
+
 lvm2 (2.03.11-2.1ubuntu4) jammy; urgency=medium
 
   * No-change rebuild to update maintainer scripts, see LP: 1959054
